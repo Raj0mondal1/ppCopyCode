@@ -1,1 +1,13 @@
-muuuahhhh bubu
+
+
+import matplotlib.pyplot as plt
+
+# Sample data
+labels = ['A', 'B', 'C', 'D']
+values = [10, 24, 36, 18]
+
+plt.bar(labels, values)
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.title('Sample Bar Chart')
+plt.show()
